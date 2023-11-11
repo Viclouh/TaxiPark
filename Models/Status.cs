@@ -1,6 +1,12 @@
 ﻿namespace TaxiPark.Models
 {
-     mclass status
+
+     public enum Status
     {
+        Waiting,
+        OnTheWay,
+        Delivered,
+        Canceled
+
     }
 }
